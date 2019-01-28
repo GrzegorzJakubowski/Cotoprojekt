@@ -1,0 +1,13 @@
+<head>
+<title>
+    Strona o kotach :)
+</title>
+
+</head>
+
+<h1><a href="/">Django Girls Blog</a></h1>
+
+<h1>Moja Strona </h1>
+{% for entry in wszystko %}
+<li><a href="/">{{ entry.nazwa }}</a></li>
+{% endfor  %}
